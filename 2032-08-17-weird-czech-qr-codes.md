@@ -32,7 +32,7 @@ Immediately we can see that it's text, it doesn't look encrypted and there is so
 structure here; lots of stars and colons. Also, every example starrts the same way,
 with `SPD*1.0*ACC:CZ`. That looks like something searchable!
 
-After trying a few variations, I laded up on Wikipedia. Iy turns out that these are
+After trying a few variations, I landed up on Wikipedia. It turns out that these are
 an open standard named [Short Payment Descriptor](https://en.wikipedia.org/wiki/Short_Payment_Descriptor)
 or just SPAYD. The format encodes a list of key-value text fields representing
 payment information and the structure is very simple, using only a couple of separators.
