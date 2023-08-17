@@ -14,7 +14,7 @@ The recipient pays me by:
 1. Scanning the code in their banking app.
 2. Scanning their fingerprint to confirm the transaction.
 
-In effect, CZ has a payment request system that cuts out a bunch of middlemen
+In effect, CZ has a payment request system that cuts out middlemen like PayPal
 and works on any communication system from paper upwards.
 
 So, how does it work?
