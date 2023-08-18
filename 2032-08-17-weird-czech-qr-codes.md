@@ -35,7 +35,10 @@ with `SPD*1.0*ACC:CZ`. That looks like something searchable!
 After trying a few variations, I landed up on Wikipedia. It turns out that these are
 an open standard named [Short Payment Descriptor](https://en.wikipedia.org/wiki/Short_Payment_Descriptor)
 or just SPAYD. The format encodes a list of key-value text fields representing
-payment information and the structure is very simple, using only a couple of separators.
+payment information and the structure is very simple. There's only a couple of separators;
+\* separates fields and : indicates the end of a key. The fields themselves
+include destination account (ACC), amount (AM) and currency (CC). Basically
+anything a banking app might need to send money.
 
 Armed with this information, I figured this would be a good project to try in
 Rust. I'd played around with the language a little before and heard about a
